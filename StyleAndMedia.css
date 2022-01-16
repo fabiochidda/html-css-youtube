@@ -2,3 +2,45 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+@media screen and (min-width: 801px) and (max-width: 1330px) {
+    .side-bar {
+        max-width: 60px;
+    }
+
+    .widget {
+        border: 0;
+    }
+
+    .menu-item {
+        flex-wrap: wrap;
+    }
+
+    .menu-item .icon {
+        margin-right: 0;
+    }
+
+    .icon-text {
+        font-size: 12px;
+    }
+
+    .widget:nth-child(1) {
+        padding-bottom: 0;
+    }
+
+    .widget:nth-child(2) {
+        padding-top: 0;
+    }
+
+    #second__widget .menu-item{
+        display: none;
+    }
+
+    #second__widget .menu-item:nth-child(1) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #third__widget {
+        display: none;
+    }
+}
