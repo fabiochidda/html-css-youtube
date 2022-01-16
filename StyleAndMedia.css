@@ -51,6 +51,10 @@ body {
     #third__widget {
         display: none;
     }
+
+    #fourth__widget {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -75,4 +79,13 @@ body {
     .play-list-item {
         min-width: 100%;
     }
+}
+
+.widget .menu-item:last-child .icon i {
+    margin-left: -5px;
+}
+
+.widget__title {
+    color: #656565;
+    margin: 10px 0;
 }
