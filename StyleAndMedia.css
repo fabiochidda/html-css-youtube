@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.play-list {
+    flex-wrap: wrap;
+    gap: 20px 0;
+}
+
 @media screen and (min-width: 801px) and (max-width: 1330px) {
     .side-bar {
         max-width: 60px;
@@ -45,5 +50,29 @@ body {
 
     #third__widget {
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .side-bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 891px) and (max-width: 1140px) {
+    .play-list-item {
+        min-width: 33%;
+    }
+}
+
+@media screen and (min-width: 510px) and (max-width: 890px) {
+    .play-list-item {
+        min-width: 49%;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .play-list-item {
+        min-width: 100%;
     }
 }
