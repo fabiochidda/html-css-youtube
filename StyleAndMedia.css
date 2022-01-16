@@ -89,3 +89,90 @@ body {
     color: #656565;
     margin: 10px 0;
 }
+
+.notification-dot {
+    justify-content: flex-end;
+    height: 100%;
+    width: 10%;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #195ED1;
+    border-radius: 50%;
+}
+
+header {
+    height: auto;
+    padding: 10px;
+}
+
+.nav__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 30px;
+}
+
+.home-button img{
+    width: 100px;
+}
+
+.search {
+    width: 450px;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-button-icon {
+    padding: 9px 25px;
+    background-color: #F7F7F7;
+    border: 1px solid #707070;
+    border-left: 0;
+}
+
+.microphone-button {
+    height: 39px;
+    width: 39px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    margin-left: 15px;
+    position: relative;
+}
+
+.microphone-button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0 25px;
+    font-size: 22px;
+}
+
+.profile-avatar {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    overflow: hidden;
+}
